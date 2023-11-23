@@ -1,4 +1,4 @@
-//firsat soluction
+//first soluction
 const checkSum = function(matrix) {
     const newArray = [];
 

@@ -21,3 +21,9 @@ The second row's largest and smallest values are 7 and 3, and their difference i
 The third row's difference is 6.
 
 In this example, the spreadsheet's checksum would be 8 + 4 + 6 = 18.
+
+**ex.3**
+Create a program that is able to transform natural text to Morse code and vice versa.
+
+## Morse supports "_", ".", " ", between letters or symbols and "/" between words.
+## Morse text: "-.-. --- -.. .. -.--. / .-.. . .- --. ..- . / .-. . .-.. --- .- -.. . -.. .-.-.- / -.. . ... .- ..-. .. --- ... / -.. . / .--. .-. --- --. .-. .- -- .- -.-. .. --- -. / . -. / .- -.-. -.-. .. --- - -"
