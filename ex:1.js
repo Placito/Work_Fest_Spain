@@ -15,19 +15,23 @@ function transcriptDNA (strandDNA) {
 
 //an intire strand of DNA
 var DnaTranscriber = function() {};
+
 DnaTranscriber.prototype.toRna = function(strg) {
-	var rna = "" ;
-	for(var i = 0; i < strg.length; i ++) {
-		if (strg[i] === 'G') {
-			rna += strg[i].replace('G','C');
-		} else if(strg[i] === 'C') {
-			rna += strg[i].replace('C','G');
-		} else if(strg[i] === 'T') {
-			rna += strg[i].replace('T','A');
-		}else {
-			rna += strg[i].replace('A','U');
-		}
-	}
-	return rna;
-}
+    var rna = "";
+
+    for (var i = 0; i < strg.length; i++) {
+        if (strg[i] === 'G') {
+            rna += 'C';
+        } else if (strg[i] === 'C') {
+            rna += 'G';
+        } else if (strg[i] === 'T') {
+            rna += 'A';
+        } else if (strg[i] === 'A') {
+            rna += 'U';
+        }
+    }
+
+    return rna;
+};
+
 module.exports = DnaTranscriber;

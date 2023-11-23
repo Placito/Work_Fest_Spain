@@ -2,7 +2,8 @@
 
 **ex.1**
 Given DNA strand, return its RNA complement
-G -> C
-c -> G
-T -> A
-A -> U
+, where:
+G -> C /
+C -> G /
+T -> A /
+A -> U /
