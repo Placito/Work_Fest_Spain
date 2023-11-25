@@ -3,14 +3,13 @@
 **ex.1**
 Given DNA strand, return its RNA complement
 , where:
-G -> C /
-C -> G /
-T -> A /
-A -> U /
+* G -> C 
+* C -> G 
+* T -> A 
+* A -> U 
 
 **ex.2**
-Calculate de cheksu, of a matrix
-
+Calculate de cheksu, of a matrix.
 Given the following spreadsheet:
 * 5 1 9 5
 * 7 5 3
