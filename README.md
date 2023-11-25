@@ -27,7 +27,9 @@ Create a program that is able to transform natural text to Morse code and vice v
 * Morse supports "_", ".", " ", between letters or symbols and "/" between words.
 * Morse text: "-.-. --- -.. .. -.--. / .-.. . .- --. ..- . / .-. . .-.. --- .- -.. . -.. .-.-.- / -.. . ... .- ..-. .. --- ... / -.. . / .--. .-. --- --. .-. .- -- .- -.-. .. --- -. / . -. / .- -.-. -.-. .. --- - -"
 
-**ex.4**
+# My-app (react)
+
+**ex.1**
 
 Build six squares with no color and every time you click one, it turns green.
 When the last square turns green, they all go back to no color in backwards sequence to which it was clicked (not all at once)
